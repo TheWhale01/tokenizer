@@ -26,4 +26,4 @@ clean_deploy:
 	rm ${DEPLOYMENT_PATH}/.env
 	find ${DEPLOYMENT_PATH}/* ! -name 'deploy.ts' -print -delete
 
-.PHONY: all compile test deploy verify clean
+.PHONY: all compile test deploy verify clean clean_deploy
